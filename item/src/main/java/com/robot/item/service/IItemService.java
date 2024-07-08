@@ -6,4 +6,5 @@ import com.robot.item.domain.po.ItemPo;
 import java.io.Serializable;
 
 public interface IItemService extends IService<ItemPo>, Serializable {
+    boolean inventoryDeduction(Integer id, Integer quantity);
 }
