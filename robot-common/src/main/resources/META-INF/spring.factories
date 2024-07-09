@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.robot.common.config.MyBatisConfig,\
+  com.robot.common.config.MvcConfig
